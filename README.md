@@ -1,2 +1,2 @@
-# Random-projects-
+# Random-projects
 Random projects that I make 
