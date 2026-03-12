@@ -392,7 +392,7 @@ section .text
             ;
 ;
 ; Written In:
-; X86 32bit NASM Linux Based Assembly Language 
+; X86 32bit NASM Linux Based Assembly Language .
 ;
 ; **  CAUTION ! **
 ; this module/header file is not fully complete yet.
