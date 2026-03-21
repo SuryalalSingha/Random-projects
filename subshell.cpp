@@ -13,16 +13,16 @@ int main() {
 		return 0;
 	}
 	while (1)  {
-		system("pwd")
-		cout<<"$ ";
+		system("pwd");
+		cout<<"# ";
 		getline(cin, comm);
 		if (comm == "exit") {
 			cout<<"Press CTRL+C for exit\n";
 		}
 		//system(comm);
-		if (!comm.ignore()) {
-			system(comm);
+		if (!comm.empty()) {
+			system(comm.c_str());
 		}
 	}
-	return 0;
+	return 0; //ritual 
 }
