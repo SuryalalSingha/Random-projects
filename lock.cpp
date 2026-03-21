@@ -133,13 +133,7 @@ int main(int argc, char *argv[])
 }
 //run this command to make this a command in termux:
 //g++ lock.cxx -o $PREFIX/bin/lock && chmod +x $PREFIX/bin/lock
-/* 
-ststring x = argv[2];
-if (x == "-hid" || x == "-hid") {
-    string file = argv[3];
-    file = "."+file;
-} else {ring x = argv[2];
-if (x == "-hid" || x == "-hid") {
-    string file = argv[3];
-    file = "."+file;
-} else { */
+
+/* this program is made for keeping some files hidden and safe from other users in a system (like file managers).
+and this file will only work in termux (latest version from f-droid) and android 8+. I have made this project just for me.
+	but it could demonstrate how command are made. */
